@@ -2,73 +2,32 @@
 .header-style {
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
+    height: 100px;
+    margin: 20px 20px 20px 20px;
 }
-
-.logo-position {
-    display: flex;
-    padding: 0px 0px 0px 20px;
-    flex: 70%;
-    order: 0;
 }
 
 .logo-style {
     display: flex;
-    width:100px;
-    height:100px;
+    align-items: flex-start;
+    
 }
-
-.navbar-position {
-    display: flex;
-    flex: 10%
-}
-
-.navbar-style {
+.navabar-style {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.navabar-list-style {
+    list-style: none;
     padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-.btn-sections-order {
     display: flex;
-    order: 2;
 }
 
-.btn-navbar-header {
-    background-color: transparent;
-    border: none;
-    font-size: 15px!important;
-    text-decoration: none;
-    padding-bottom: 10px;
-}
-
-.btn-style-hosting {
-    color: #0065fc;
-    border-bottom: 3px solid#0065fc;
-    padding-left: 12%;
-    padding-right: 12%;
-
-}
-
-.btn-style-activity {
-    color: black;
-    border-bottom: 3px solid #F2F2F2;
-    padding-left: 12%;
-    padding-right: 12%;
-}
-
-.btn-register-position {
+.register-style {
     display: flex;
-    flex: 10%;
-    order: 1;
+    align-items: flex-start;
 }
 
-.btn-style-register {
-    color: #0065fc;
-    padding: 0;
-}
 
