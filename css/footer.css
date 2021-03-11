@@ -1,0 +1,54 @@
+/*Flooter*/
+
+.style-footer {
+    display: flex; 
+    flex-direction: column; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.style-footer  li {
+    padding-top: 10px;
+}
+
+.title-section {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.section {
+    font-size: 15px;
+    margin: 0;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .title-section {
+        font-size: 25px;
+    }
+
+    .section {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,47 @@
+
+.icon-popular {
+    font-size: 20px;
+}
+
+.group-cards-popular {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-popular {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(204, 204, 204, 0.5);
+    margin-bottom: 10px;
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.img-popular{
+    object-fit: cover;
+    height: 120px;
+    width: 35%;
+    padding: 5px 5px 5px 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .card-popular {
+        border-radius: 25px;
+        margin-bottom: 50px;
+    }
+
+    .img-popular{
+        height: 180px;
+        width: 40%;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+}

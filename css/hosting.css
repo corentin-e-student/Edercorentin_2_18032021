@@ -1,0 +1,110 @@
+
+.group-cards-hosting {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.card-hosting {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(204, 204, 204, 0.5), -5px 0px 5px  rgba(204, 204, 204, 0.5) ;
+    margin-bottom: 15px;
+    padding: 5px 5px 0px 5px;
+    transition: 0.3s;
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.notations-hosting {
+    font-size: 15px;
+    padding: 5px 0px 0px 10px;
+    margin: 0;
+}
+
+.price-notations-hosting {
+    font-size: 13px;
+    padding: 2px 0px 0px 10px;
+    margin: 0;
+}
+
+.img-hosting{
+    object-fit: cover;
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.stars-notations-hosting {
+    display: flex; 
+    flex-direction: row; 
+    margin: 0;
+    padding: 0px 0px 0px 10px;
+    list-style: none;
+}
+
+.notations-hosting-end {
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .group-cards-hosting {
+        width: 40%;
+        margin:0;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .group-cards-hosting {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .card-hosting {
+        margin-bottom: 30px;
+        height: 270px;
+        width:30%;
+        border-radius: 30px;
+    }
+
+    .img-hosting{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    .notations-hosting {
+        font-size: 20px;
+        padding: 10px 0px 0px 10px;
+
+    }
+    
+    .price-notations-hosting {
+        font-size: 18px;
+        padding: 5px 0px 0px 10px;
+    }
+
+    .stars-notations-hosting {
+        display: flex; 
+        flex-direction: row; 
+        margin: 0;
+        padding-top: 10px;
+
+    }
+    
+    .notations-hosting-end {
+        font-size: 20px;
+        font-weight: 900;
+        margin: 0;
+    }
+
+
+}
