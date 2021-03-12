@@ -26,7 +26,7 @@
 -------------------------------------------------------- */
 
 /* Block responsive hosting (popular part + hosting part) */
-.position-hosting-responsive {
+.container-hosting-part {
     display: flex;
     flex-direction: column;
 }
@@ -96,11 +96,6 @@
                         Activity Part
 -------------------------------------------------------- */
 
-.position-activity-responsive {
-    display: flex;
-    flex-direction: column;
-}
-
 .position-title-activity {
     display: flex;
     flex-direction: row;
@@ -146,6 +141,7 @@
     padding-top: 5%;
     padding-left: 10px;
     margin: 0;
+    flex:1
 }
 
 .stars-notations {
@@ -172,36 +168,47 @@
 
 
 @media only screen and (min-width: 600px) {
-    
-    .position-items-popular {
-        padding: 20px 0px 0px 5px; 
-    }
 
     .position-items-hosting {
         flex-direction: row;
         width: 100%;
-        padding: 20px 0px 0px 15px;
+        justify-content: space-between;
     }
 
-    .container-block-activity{
+    .container-block-activity {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        height: 380px;
-        margin: 30px 20px 0px 20px;
     }
 
     .position-items-activity {
-        padding: 20px 0px 0px 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container-footer {
+        height: 200px;
+        padding: 0px 20px 0px 20px;
     }
 
     .position-items-footer {
         flex-direction: row;
+        padding-right: 20px;
+    }
+
+    .position-popular-description {
+        padding: 5px 0px 0px 10px;
+    }
+
+    .notations {
+        padding-top: 15px;
     }
 
     .stars-notations {
-        padding: 10px 0 0 0;
+        padding: 0px 0 10px 0;
     }
+
+   
 }
 
 /* --------------------------------------------------------
@@ -209,10 +216,6 @@
 -------------------------------------------------------- */
 
 @media only screen and (min-width: 1400px) {
-
-    .position-items {
-        padding: 0px 50px 0px 40px;
-    }
     
     .position-items-search {
         padding: 0px 50px 0px 40px
@@ -255,7 +258,7 @@
         padding: 50px 50px 40px 50px 
     }
 
-    .position-hosting-responsive {
+    .container-hosting-part {
         flex-direction: row;
     }
 
@@ -291,6 +294,7 @@
         width: 100%;
         padding: 0;
         padding-top: 30px;
+        flex-direction: row;
         flex-wrap: nowrap;
     }
 

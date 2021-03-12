@@ -14,6 +14,7 @@
     flex-direction: row;
     background-color: white;
     box-shadow: 10px 10px 10px rgba(204, 204, 204, 0.5);
+    padding: 5px 5px 5px 5px;
     margin-bottom: 10px;
     transition: 0.3s;
     width: 100%;
@@ -24,15 +25,48 @@
     object-fit: cover;
     height: 120px;
     width: 35%;
-    padding: 5px 5px 5px 5px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
 
+@media only screen and (min-width: 600px) {
+
+    .group-cards-popular {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card-popular {
+        flex-direction: column;
+        padding: 5px 5px 0px 5px;
+        width: 30%;
+    }
+
+    .img-popular{
+        object-fit: cover;
+        height: 120px;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    
+    }
 }
 
 @media only screen and (min-width: 1400px) {
 
+    .group-cards-popular {
+        flex-direction: column;
+        justify-content: none;
+    }
+
     .card-popular {
+        flex-direction: row;
+        padding: 0;
+        width: 100%;
+        padding: 5px 5px 5px 5px;
         border-radius: 25px;
         margin-bottom: 50px;
     }
@@ -41,6 +75,7 @@
         height: 180px;
         width: 40%;
         border-top-left-radius: 25px;
+        border-top-right-radius: 0px;
         border-bottom-left-radius: 25px;
     }
 

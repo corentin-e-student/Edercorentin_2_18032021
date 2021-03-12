@@ -28,75 +28,56 @@
 
 @media only screen and (min-width: 600px) {
 
-    .card-activity {
-        margin: 0;
-    }
-
     .group-cards-activities {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        width: 50%;
-    }
-
-    .card-activity-large {
-        margin-right: auto;
-        height: 70%;
-        width: 45%;
+        width: 100%;
+        margin-bottom: 25px;
     }
 
     .group-cards-activities-lot {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        flex-direction: row;
+        width: 70%;
+    }
+
+    .card-activity {
+        margin: 0;
+    }
+
+    .card-activity-large {
+        height: 205px;
+        width: 30%;
         margin-right: auto;
-        height: 70%;
-        width: 40%;
     }
 
     .card-activity-medium-start {
-        height: 55%;
-        width: 100%;
+        height: 205px;
+        width: 45%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .card-activity-small-end {
-        height: 35%;
-        width: 100%;
+        height: 205px;
+        width: 45%;
     }
 
     .card-activity-medium-end {
-        height: 55%;
-        width: 100%;
+        height: 205px;
+        width: 45%;
     }
 
     .card-activity-small-start {
-        height: 35%;
-        width: 100%;
+        height: 205px;
+        width: 45%;
+        margin-right: auto;
+        margin-left: auto;
     }
-
-    .img-activity {
-        object-fit: cover;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px; 
-    }
-
-    .img-activity-large {
-        height: 90%;
-        width: 100%;
-    }
-
-    .img-activity-medium {
-        height: 82%;
-        width: 100%;
-    }
-
-    .img-activity-small {
-        height: 72%;
-        width: 100%;
-    }
+    
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1400px) {
 
     .card-activity {
         margin: 0;
@@ -151,17 +132,17 @@
     }
 
     .img-activity-large {
-        height: 90%;
+        flex: 13;
         width: 100%;
     }
 
     .img-activity-medium {
-        height: 82%;
+        flex: 6;
         width: 100%;
     }
 
     .img-activity-small {
-        height: 72%;
+        flex: 4;
         width: 100%;
     }
 }
