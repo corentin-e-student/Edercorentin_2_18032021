@@ -74,9 +74,9 @@
     .img-popular{
         height: 180px;
         width: 40%;
-        border-top-left-radius: 25px;
+        border-top-left-radius: 20px;
         border-top-right-radius: 0px;
-        border-bottom-left-radius: 25px;
+        border-bottom-left-radius: 20px;
     }
 
 }
