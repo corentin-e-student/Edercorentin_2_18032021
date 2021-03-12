@@ -44,7 +44,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    width: 100%;
 }
 
 .position-items-popular {
@@ -215,7 +214,7 @@
                         Desktop Responsive
 -------------------------------------------------------- */
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1100px) {
     
     .position-items-search {
         padding: 0px 50px 0px 40px
@@ -231,12 +230,13 @@
         flex-direction: column;
         background-color: #F2F2F2;
         border-radius: 30px;
-        margin: 20px 40px 50px 0px;
-        padding: 50px 50px 10px 50px 
+        margin: 0;
+        padding: 10px;
+        width: 25%;
     }
 
     .position-title-popular {
-        width: 100%;
+        padding: 20px 10px 0px 10px;
     }
     
     .position-items-popular {
@@ -254,17 +254,21 @@
         flex-direction: column;
         background-color: #F2F2F2;
         border-radius: 30px;
-        margin: 20px 50px 50px 40px;
-        padding: 50px 50px 40px 50px 
+        margin: 0px;
+        padding: 10px;
+        width: 70%;
     }
 
     .container-hosting-part {
         flex-direction: row;
+        margin: 20px 20px 20px 20px;
+        justify-content: space-between;
     }
 
     .position-title-hosting {
         display: flex;
         flex-direction: row;
+        padding: 20px 10px 0px 10px;
     }
 
     .position-items-hosting {
@@ -276,7 +280,8 @@
     .position-title-hosting-end {
         display: flex;
         flex-direction: row;
-        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 10px;
     }
 
     .position-activity-responsive {
