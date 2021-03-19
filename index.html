@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="\css\hosting.css">
     <link rel="stylesheet" href="\css\activity.css">
     <link rel="stylesheet" href="\css\footer.css">
+    <link rel="stylesheet" href="\js\index.js">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="flex-container-reservia">
@@ -18,15 +19,15 @@
         <img class="logo-site" src="\medias\images\logo\Reservia.svg" alt="Logo Reservia" >
         <nav class="navbar-style" >
             <ul class="navbar-list-style">
-                <li class="button-list"> 
-                    <a style="text-decoration: none; color: #0065fc;" href="#hosting">Hébergements</a> 
+                <li id="button-list" onclick="myButton" class="button-list"> 
+                    <a class="text-button-list" href="#hosting">Hébergements</a> 
                 </li>
                 <li class="button-list">
-                    <a style="text-decoration: none; color: #0065fc;" href="#activity">Activités</a> 
+                    <a class="text-button-list" href="#activity">Activités</a> 
                 </li>
             </ul> 
         </nav>
-        <a class="register-style" href="#">S'inscrire</a>
+        <a id="register" onclick="myRegister()" class="register-style" href="#">S'inscrire</a>
     </div>
 
     <div class="position-items-search">
@@ -41,10 +42,12 @@
         </div>
         <div class="filtre-container">
             <h1 class="title-filter">Filtres</h1>
-            <button class="button-filter"><i class="fa fa-money-bill-wave money-icon"></i>Économique</button>
-            <button class="button-filter"><i class="fa fa-child child-icon"></i>Familial</button>
-            <button class="button-filter"><i class="fa fa-heart heart-icon"></i>Romantique</button>
-            <button class="button-filter"><i class="fa fa-dog dog-icon"></i>Animaux autorisés</button>
+            <div class="group-buttons-flitre">
+                <button class="button-filter"><i class="fa fa-money-bill-wave money-icon"></i>Économique</button>
+                <button class="button-filter"><i class="fa fa-child child-icon"></i>Familial</button>
+                <button class="button-filter"><i class="fa fa-heart heart-icon"></i>Romantique</button>
+                <button class="button-filter"><i class="fa fa-dog dog-icon"></i>Animaux autorisés</button>
+            </div>
         </div>
         <div class="infos-note">
             <span class="circle-i"><i class="fa fa-info infos-icon"></i></span><p class="note-i">Plus de 500 logements sont disponibles dans cette ville</p>
