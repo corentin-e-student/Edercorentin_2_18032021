@@ -26,6 +26,19 @@
     box-shadow: 10px 10px 10px rgba(95, 95, 95, 0.5);
 }
 
+.position-popular-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px 0px 0px 5px;
+}
+
+.notations-popular {
+    display: flex;
+    font-size: 15px;
+    margin: 0;
+}
+
 .img-popular{
     object-fit: cover;
     height: 120px;
@@ -47,6 +60,10 @@
         flex-direction: column;
         padding: 5px 5px 0px 5px;
         width: 30%;
+    }
+
+    .position-popular-description {
+        padding: 5px 0px 0px 10px;
     }
 
     .img-popular{
@@ -74,6 +91,10 @@
         padding: 0;
         border-radius: 25px;
         margin-bottom: 20px;
+    }
+
+    .position-popular-description {
+        padding: 0px 0px 0px 15px;
     }
 
     .img-popular{

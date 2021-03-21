@@ -54,19 +54,6 @@
     width: 100%;
 }
 
-.position-popular-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 5px 0px 0px 5px;
-}
-
-.notations-popular {
-    display: flex;
-    font-size: 15px;
-    margin: 0;
-}
-
 /* --------------------------------------------------------
                         Hosting Part
 -------------------------------------------------------- */
@@ -200,10 +187,6 @@
         padding-right: 20px;
     }
 
-    .position-popular-description {
-        padding: 5px 0px 0px 10px;
-    }
-
     .notations {
         padding-top: 15px;
     }
@@ -247,10 +230,6 @@
     .position-items-popular {
         padding: 30px 0px 0px 0px;
         width: 100%;
-    }
-
-    .position-popular-description {
-        padding: 0px 0px 0px 15px;
     }
     
     .container-block-hosting {
