@@ -1,9 +1,9 @@
 
-.header-style {
+.head-style {
     display: flex;
     flex: row;
     flex-wrap: wrap;
-    padding: 10px 15px 0px 15px;
+    padding: 10px 15px 10px 15px;
 }
 
 .logo-site {

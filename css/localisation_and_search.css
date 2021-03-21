@@ -83,12 +83,24 @@
     margin-right: 5px;
 }
 
+.money-icon:hover {
+    transition: background-color 0.2s, color 0.2s;
+    background-color: #0065fc;
+    color: white;
+}
+
 .child-icon {
     background-color: #deebff;
     color: #0065fc;
     border-radius: 20px;
     padding: 10px 12px 10px 12px;
     margin-right: 5px;
+}
+
+.child-icon:hover {
+    transition: background-color 0.2s, color 0.2s;
+    background-color: #0065fc;
+    color: white;
 }
 
 .heart-icon {
@@ -99,12 +111,24 @@
     margin-right: 5px;
 }
 
+.heart-icon:hover {
+    transition: background-color 0.2s, color 0.2s;
+    background-color: #0065fc;
+    color: white;
+}
+
 .dog-icon {
     background-color: #deebff;
     color: #0065fc;
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
     margin-right: 5px;
+}
+
+.dog-icon:hover {
+    transition: background-color 0.2s, color 0.2s;
+    background-color: #0065fc;
+    color: white;
 }
 
 /*Information bubble*/

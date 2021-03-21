@@ -18,6 +18,11 @@
     height: 180px;
     width: 100%;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.card-hosting:hover {
+    box-shadow: 10px 10px 10px rgba(95, 95, 95, 0.5), -10px 10px 10px  rgba(95, 95, 95, 0.5) ;;
 }
 
 .notations-hosting {

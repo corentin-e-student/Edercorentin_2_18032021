@@ -18,6 +18,10 @@
     border-radius: 20px;
 }
 
+.card-activity:hover {
+    box-shadow: 10px 10px 10px rgba(95, 95, 95, 0.5), -10px -10px 10px rgba(95, 95, 95, 0.5) ;;
+}
+
 .img-activity {
     object-fit: cover;
     height: 155px;
